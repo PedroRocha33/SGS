@@ -1,50 +1,58 @@
-⚙️ SGS — Sistema de Gerenciamento de Serviços para Autônomos
-Uma plataforma simples, eficiente e profissional para autônomos que desejam controlar suas ordens de serviço, agendamentos, clientes e tarefas do dia a dia com mais organização e produtividade.
+# ⚙️ SGS — Sistema de Gerenciamento de Serviços para Autônomos
 
-🚀 Funcionalidades
-📋 Cadastro e controle de ordens de serviço
+> Uma plataforma simples, eficiente e profissional para autônomos que desejam controlar suas ordens de serviço, agendamentos, clientes e tarefas do dia a dia com mais organização e produtividade.
 
-🧑‍💼 Gerenciamento de clientes e histórico de atendimentos
+---
 
-📅 Agenda de compromissos com visualização por dia, semana e mês
+## 🚀 Funcionalidades
 
-📊 Relatórios simples e objetivos sobre seus serviços
+- 📋 **Cadastro e controle de ordens de serviço**
+- 🧑‍💼 **Gerenciamento de clientes** e histórico de atendimentos
+- 📅 **Agenda de compromissos** com visualização por dia, semana e mês
+- 📊 **Relatórios simples e objetivos** sobre seus serviços
+- 🔒 **Acesso seguro com autenticação **Sistema 100% online**, acessível de qualquer lugar
 
-🔒 Acesso seguro com autenticação
+---
 
-☁️ Sistema 100% online, acessível de qualquer lugar
+## 👤 Público-Alvo
 
-👤 Público-Alvo
 Profissionais autônomos e liberais de diversas áreas:
 
-🔧 Técnicos
+- Técnicos 🔧  
+- Barbeiros 💈  
+- Esteticistas 💆‍♀️  
+- Freelancers 💻  
+- Designers 🎨  
+- Eletricistas 💡  
+- Consultores 🧠  
 
-💈 Barbeiros
+---
 
-💆‍♀️ Esteticistas
+## 🛠️ Tecnologias Utilizadas
 
-💻 Freelancers
+**Frontend**:  
+`HTML`, `CSS`, `JavaScript`
 
-🎨 Designers
+**Backend**:  
+`PHP` ou `Node.js` *(especifique conforme seu projeto)*
 
-💡 Eletricistas
+**Banco de Dados**:  
+`MySQL` ou `Firebase`
 
-🧠 Consultores
+**Hospedagem**:  
+Vercel, Hostinger, Railway, etc.
 
-🛠️ Tecnologias Utilizadas
-Frontend:
-HTML
+---
 
-CSS
+## 📂 Como Usar
 
-JavaScript
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/sgs.git
 
-Backend:
-PHP ou Node.js (especifique conforme seu projeto)
+# Acesse a pasta do projeto
+cd sgs
 
-Banco de Dados:
-MySQL ou Firebase (especifique conforme seu projeto)
+# Configure o backend e banco de dados
 
-Hospedagem:
-Ex: Vercel, Hostinger, Railway, etc.
-
+# Inicie o servidor local
