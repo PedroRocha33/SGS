@@ -148,7 +148,7 @@
 
           <div class="form-buttons">
             <button type="reset" class="btn btn-outline">Limpar</button>
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" id="btn-add-service" class="btn btn-primary">
               <i class="fas fa-save"></i> Cadastrar Serviço
             </button>
           </div>
@@ -416,36 +416,7 @@
   <button id="backToTop" class="back-to-top" title="Voltar ao topo">
     <i class="fas fa-arrow-up"></i>
   </button>
-
-  <!-- JavaScript -->
-  <script>
-    // Função para alternar o menu responsivo
-    function toggleMenu() {
-      const nav = document.getElementById('mainNav');
-      nav.classList.toggle('active');
-    }
-
-    // Mostrar/ocultar botão "voltar ao topo"
-    window.onscroll = function() {
-      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        document.getElementById('backToTop').style.display = "block";
-      } else {
-        document.getElementById('backToTop').style.display = "none";
-      }
-    };
-
-    // Função para voltar ao topo
-    document.getElementById('backToTop').addEventListener('click', function() {
-      window.scrollTo({top: 0, behavior: 'smooth'});
-    });
-
-    // Manipulação do formulário (exemplo)
-    document.getElementById('formServico').addEventListener('submit', function(e) {
-      e.preventDefault();
-      // Aqui você pode adicionar a lógica para salvar os dados
-      alert('Serviço cadastrado com sucesso!');
-      this.reset();
-    });
-  </script>
+  
+  <script src="/scripts/app.js"></script>
 </body>
 </html>
