@@ -1,0 +1,1 @@
+const nameCliente = document.querySelector('#cliente');
