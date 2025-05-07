@@ -91,6 +91,14 @@
                 <input type="text" id="cliente" name="cliente" placeholder="Nome do Cliente" required>
               </div>
             </div>
+
+            <div class="form-group">
+                <label for="cliente">Contato:</label>
+                <div class="input-group">
+                  <i class="fas fa-user input-icon"></i>
+                  <input type="text" id="contato" name="contato" placeholder="contato" required>
+                </div>
+              </div>
             
             <div class="form-group">
               <label for="tipoServico">Tipo de Serviço:</label>
@@ -192,19 +200,25 @@
               <thead>
                 <tr>
                   <th>Cliente</th>
+                  <th>Número</th>
                   <th>Serviço</th>
+                  <th>Descrição</th>
                   <th>Data</th>
                   <th>Valor</th>
                   <th>Status</th>
+                  <th>Prioridade</th>
                   <th>Ações</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>Maria Silva</td>
+                  <td>51985851247</td>
                   <td>Manutenção de Computador</td>
+                  <td>Manutenção Total</td>
                   <td>05/05/2025</td>
                   <td>R$ 150,00</td>
+                  <td>Media</td>
                   <td><span class="status status-success">Concluído</span></td>
                   <td>
                     <div class="table-actions">
@@ -216,9 +230,12 @@
                 </tr>
                 <tr>
                   <td>João Oliveira</td>
+                  <td>51985851247</td>
                   <td>Instalação de Software</td>
+                  <td>Instalação Antivirus</td>
                   <td>04/05/2025</td>
                   <td>R$ 80,00</td>
+                  <td>Media</td>
                   <td><span class="status status-pending">Em Andamento</span></td>
                   <td>
                     <div class="table-actions">
@@ -230,9 +247,12 @@
                 </tr>
                 <tr>
                   <td>Empresa ABC</td>
+                  <td>51985851247</td>
                   <td>Consultoria de TI</td>
+                  <td>Duvidas de blockchain</td>
                   <td>06/05/2025</td>
                   <td>R$ 500,00</td>
+                  <td>Media</td>
                   <td><span class="status status-pending">Pendente</span></td>
                   <td>
                     <div class="table-actions">
@@ -398,19 +418,6 @@
       <p>&copy; 2025 TechService - Sistema de Gestão de Serviços. Todos os direitos reservados.</p>
     </div>
   </footer>
-
-  <!-- Modal para confirmações -->
-  <div id="modal" class="modal">
-    <div class="modal-content">
-      <span class="close-modal">&times;</span>
-      <h3 id="modalTitle">Título do Modal</h3>
-      <p id="modalMessage">Mensagem do modal aqui.</p>
-      <div class="modal-buttons">
-        <button id="modalCancel" class="btn btn-outline">Cancelar</button>
-        <button id="modalConfirm" class="btn btn-primary">Confirmar</button>
-      </div>
-    </div>
-  </div>
 
   <!-- Back to top button -->
   <button id="backToTop" class="back-to-top" title="Voltar ao topo">
